@@ -1,4 +1,4 @@
-from django.shortcuts import render
+yfrom django.shortcuts import render
 from django.http import HttpResponse
 from django.core.mail import send_mail
 
@@ -9,7 +9,7 @@ def Index(request):
         email = request.POST.get('email')
         print(sub,msg,email)
         send_mail(  
-            sub,msg,'ashwinthandu03@gmail.com',
+            sub,msg,'Enter your email id',
             [email]
         )
         return HttpResponse('email send that !')

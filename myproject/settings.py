@@ -55,7 +55,7 @@ ROOT_URLCONF = 'myproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\91636\Desktop\myproject\mailsapp\templates'],
+        'DIRS': [r'enter the location of the project'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -125,8 +125,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'ashwinthandu03@gmail.com'
-EMAIL_HOST_PASSWORD = 'kxqzwixqbfedtpug'
+EMAIL_HOST_USER = 'enter your email id'
+EMAIL_HOST_PASSWORD = 'enter your password,for easy run add two factor password code of your email'
 EMAIL_PORT = 465
 EMAIL_USE_SSL = True
 

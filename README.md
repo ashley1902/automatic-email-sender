@@ -1,5 +1,8 @@
 # automatic-email-sender
 This auto email sender web app is used to send mail from a preset email id to others automatically.
+
+
+
 Functions:
 "from django.core.mail import send_mail" this is the command that django provides for sending mail
 Notes:
